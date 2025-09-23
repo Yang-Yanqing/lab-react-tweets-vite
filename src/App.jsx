@@ -1,5 +1,7 @@
+import React from "react";
 import "./App.css";
 import Tweet from "./components/Tweet";
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const tweetsArray = [
   {
@@ -39,9 +41,11 @@ const tweetsArray = [
 
 function App() {
   return (
-    <div className="App">
-      <Tweet />
+    <>
+    <div className="container">
+      <Tweet tweet={tweetsArray[0]}/>
     </div>
+    </>
   );
 }
 
