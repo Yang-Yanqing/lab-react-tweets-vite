@@ -43,7 +43,7 @@ function App() {
   return (
     <>
     <div className="container">
-      <Tweet tweet={tweetsArray[0]}/>
+      <Tweet tweetProps={tweetsArray[0]}/>
     </div>
     </>
   );

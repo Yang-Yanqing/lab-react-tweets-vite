@@ -1,7 +1,7 @@
 import React from "react";
 
-function Timestamp({ time }) {
-  return <span className="timestamp">{time}</span>;
+function Timestamp(props) {
+  return <span className="timestamp">props.theTime</span>;
 }
 
 export default Timestamp;
